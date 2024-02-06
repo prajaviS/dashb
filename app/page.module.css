@@ -1414,6 +1414,7 @@
     /*float: left;*/
     display: block;
     justify-content: space-around; 
+    
   }
   .ctext{
     margin-top: 5px;
@@ -1423,7 +1424,7 @@
     font-size: 10px;
   }
   .list{
-    margin-top: 50px;
+    margin-top: 90px;
   }
   .elem{
     margin-top: 30px;
