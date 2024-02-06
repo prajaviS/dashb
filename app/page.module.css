@@ -1406,7 +1406,7 @@
 }
 @media (max-width:400px) {
   .description {
-    height: 840px;
+    height: 820px;
     width: 100px;
     /*z-index: 2;*/
     font-family: var(--font-mono);
@@ -1848,13 +1848,13 @@
     border-radius: 5px;
   }
   .subsec2{
+    width: 160%;
     display: flex;
     gap: 40px;
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
     overflow-x: auto;
-    
   }
   .card21{
     height: 440px;
