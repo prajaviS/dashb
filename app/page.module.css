@@ -2048,6 +2048,11 @@
     display: flex;
     margin-top: 15px;
     margin-left: 30px;
+    width: 190%;
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    
   }
   .card3{
     width: 510px;
