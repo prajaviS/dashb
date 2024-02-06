@@ -1624,11 +1624,26 @@
       font-weight: 600;
       color: #7352e9;
   }
+
   .section1{
     display: block;
     width: 130%;
     height: 500px;
     justify-content: space-between;
+  }
+  .secton2{
+    display: block;
+    width: 130%;
+    height: 500px;
+    justify-content: space-between;
+
+  }
+  .secton3{
+    display: block;
+    width: 130%;
+    height: 500px;
+    justify-content: space-between;
+    
   }
   .subsec1{
     display: flex;
@@ -1838,6 +1853,8 @@
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
+    overflow-x: auto;
+    
   }
   .card21{
     height: 440px;
