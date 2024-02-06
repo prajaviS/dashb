@@ -1404,3 +1404,702 @@
   }
   
 }
+@media (max-width:400px) {
+  .description {
+    height: 840px;
+    width: 100px;
+    /*z-index: 2;*/
+    font-family: var(--font-mono);
+    background-color: white;
+    /*float: left;*/
+    display: block;
+    justify-content: space-around; 
+  }
+  .ctext{
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .dd1{
+    font-size: 10px;
+  }
+  .list{
+    margin-top: 50px;
+  }
+  .elem{
+    margin-top: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+  }
+  .elem>svg{
+    margin-right: 5px;
+  }
+  .elem1{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #7352e9;
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 1px;
+    cursor: pointer;
+  }
+  .elem1>svg{
+    margin-top: 1px;
+    margin-right: 2px;
+  }
+  
+  .content{
+    width: 100%;
+    height: 45px;
+    justify-content: end;
+   
+  
+  }
+  .img1{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-size: cover;
+    background: url(../public/Frame\ 2.png);
+    margin:0;
+  }
+  .img2{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-size: cover;
+    background: url(../public/Frame\ 2\ \(1\).png);
+    margin-left: 2px;
+  }
+  .description1{
+    background-color: white;
+    max-width: 500vw;
+    width: 100%;
+    display: block;
+    float: right;
+  }
+  .searchbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    top: 0;
+  }
+  
+  .search{
+    width: 10px;
+    display: flex;
+    margin-left: 2px;
+    background-color: white;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    color: #CECECE;
+    margin-right: 0;
+  }
+  
+  
+  .currtime{
+    width: 70px;
+    margin-left: 50px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    margin-right: 2px;
+    border: 2px solid #A0A3BD;
+    border-radius: 5px;
+  }
+  .date1 {
+    font-weight: 700;
+    margin: 0;
+    margin-top: 25px;
+    font-size: 7px;
+  }
+  .calen{
+    margin: 0;
+  }
+  .profile{
+    width: 150px;
+    background-color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #E8EFF7;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .image11{
+    background: rebeccapurple;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: url("../public/image\ 11.png");
+    margin-right: 0;
+  }
+  .p1{
+    font-size: 7px;
+  }
+  .p2{
+    font-size: 12px;
+  }
+  .name{
+    margin-right: 10px;
+  }
+  .mainpage{
+    max-width: 4000px;
+    background-color: #f8fafb;
+    height: 835px;
+    overflow-x: auto;
+
+  }
+  .mainpage::-webkit-scrollbar {
+    display: none;
+  }
+  .admin{
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: unbranist;
+  }
+  .p4{
+      font-size: 20px;
+      font-weight: 700; 
+  }
+  .p5{
+      font-size: 9px;
+      color: #A0A3BD;
+  }
+  .panel{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*justify-content: space-between;*/
+    margin-left: 10px;
+    
+    gap: 30px;
+    overflow-x: auto;
+  }
+  .article{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+  }
+  .textbox{
+     display: block;
+     gap: 25px; 
+  }
+  .t1{
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .t2{
+    font-size: 12px;
+  }
+  .textbox2{
+    display: flex;
+    width: 79%;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .msg1{
+       font-weight: 700;
+  }
+  .msg2{
+      font-weight: 600;
+      color: #7352e9;
+  }
+  .section1{
+    display: block;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+  }
+  .subsec1{
+    display: flex;
+    width: 130%;
+    gap: 16px;
+    margin-left: 10px;
+    overflow-x:hidden;
+  }
+  .card1{
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 7px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .imagead1{
+    background-size: cover;
+    height: 200px;
+    margin: 10px;
+    background: url(../public/card1.webp);
+    border-radius: 5px;
+  }
+  .secondhalf{
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    display: block;
+  }
+  .tag{
+    display: flex;
+    margin-left: 5px;
+  }
+  .bus{
+    font-weight: 700;
+    margin-right: 2px;
+    color: #7352e9;
+    margin-top: 3px;
+  }
+  .busd{
+    color: #A0A3BD;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .image4{
+    background-size: cover;
+    background: url(../public/Ellipse\ 2.png);
+    height:30px;
+    width: 30px;
+    margin-left: 3px;
+  }
+  .person{
+    display: flex;
+  }
+  .author{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 7px;
+  }
+  .moto{
+    display: flex;
+  }
+  .tag1{
+    display: flex;
+    color: #A0A3BD;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .branding{
+    width: 80px;
+    height: 30px;
+    margin-left: 6px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #F8FAFB;
+  }
+  .branding1{
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    margin-left: 6px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    background-color: #F8FAFB;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .brand{
+    margin-top: 6px;
+  }
+  .viewit{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .view{
+    width: 200px;
+    height: 37px;
+    background-color: #E3D5FF;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .viewtext{
+    margin-top: 8px;
+    font-weight: 600;
+    color: #7352e9;
+  }
+  .icon1{
+    width: 60px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #E3D5FF; 
+  }
+  .iconimg{
+    width: 21px;
+    height: 7px;
+    background-size: cover;
+    background: url(../public/icon1.png);
+    margin-top: 15px;
+    margin-left: 18px;
+  }
+  .headline{
+    margin-top: 10px;
+    display: block;
+    margin-left: 12px;
+  }
+  .rule{
+    font-weight: 500;
+  
+  }
+  .rule4{
+    font-size: 7px;
+    margin-top: 5px;
+    color: #A0A3BD;
+  
+  }
+  .created{
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 50px;
+    font-weight: 700;
+    background-color: #E3D5FF;
+  }
+  .createtext{
+    margin-top: 5px;
+    font-size: 10px;
+    color: #7352e9;
+  }
+  .created1{
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-weight: 700;
+    background-color: #E4FFF8;
+  }
+  .createtext2{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #0DAD82;
+  
+  }
+  .imagead2{
+    background-size: cover;
+    height: 200px;
+    margin: 10px;
+    background: url(../public/card2.webp);
+    border-radius: 5px;
+  }
+  .imagead3{
+    background-size: cover;
+    height: 200px;
+    margin: 10px;
+    background: url(../public/card3.webp);
+    border-radius: 5px;
+  }
+  .imagead4{
+    background-size: cover;
+    height: 200px;
+    margin: 10px;
+    background: url(../public/Rectangle\ 685.png);
+    border-radius: 5px;
+  }
+  .subsec2{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .card21{
+    height: 440px;
+    width: 320px;
+    background: url(../public/Rectangle\ 685.png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .card22{
+    height: 440px;
+    width: 320px;
+    background: url(../public/Rectangle\ 685\ \(1\).png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .card23{
+    height: 440px;
+    width: 320px;
+    background: url(../public/Rectangle\ 685\ \(2\).png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .card24{
+    height: 440px;
+    width: 320px;
+    background: url(../public/Rectangle\ 685.png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .topport{
+    display: flex;
+    margin-left: 170px;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .seen{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: 
+    rgba(255, 255, 255, 0.8);
+    display: flex;
+  }
+  .seeit{
+    width: 16px;
+    height: 17px;
+    background-size: cover;
+    background: url(../public/seen.png);
+    margin-left: 15px;
+    margin-top: 6px;
+  }
+  .val{
+    width: 20px;
+    height: 10px;
+    background-size: cover;
+    background: url(../public/428.png);
+    margin-left: 8px;
+    margin-top: 9px;
+  
+  }
+  .sicon{
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: 
+    rgba(255, 255, 255, 0.8);
+  
+  }
+  .stats{
+    margin-top:7px;
+    margin-left: 16px;
+    background-size: cover;
+    background: url(../public/status-up.png);
+    width: 16px;
+    height: 16px;
+  }
+  .bottomport{
+    margin-top: 240px;
+    display: block;
+    margin-left: 10px;
+    gap: 7px;
+  }
+  .head1{
+    display: block;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .head3{
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+  }
+  .viewit1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-right: 30px;
+   
+  }
+  .view1{
+    width: 210px;
+    height: 42px;
+    background-color: #E3D5FF;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .icon11{
+    width: 50px;
+    height: 42px;
+    border-radius: 15px;
+    background-color:rgba(250, 250, 250, 1);
+    
+  }
+  .bus1{
+    font-weight: 700;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 7px;
+  }
+  .created2{
+    width: 80px;
+    height: 28px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 35px;
+    font-weight: 600;
+    background-color: #E4FFF8;
+    
+  }
+  .createtext3{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgba(13, 173, 130, 1);
+  
+  }
+  .busd1{
+    color: #A0A3BD;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 13px;
+    margin-right: 14px;
+  
+  }
+  .created3{
+    width: 80px;
+    height: 28px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 35px;
+    font-weight: 600;
+    background-color: rgba(218, 241, 251, 1);
+  
+  }
+  .createtext4{
+    margin-top: 5px;
+    font-size: 15px;
+    color:  rgba(88, 164, 255, 1);
+  
+  }
+  .created4{
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 35px;
+    font-weight: 600;
+    background-color: rgba(244, 244, 244, 1);
+  }
+  .createtext5{
+    margin-top: 5px;
+    font-size: 12px;
+    color:  
+    rgba(160, 163, 189, 1);
+  }
+  .subsec3{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .card3{
+    width: 510px;
+    height: 200px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    display: flex;
+  }
+  
+  .c3img{
+    width: 220px;
+    height: 100%;
+    background-size: contain;
+    background: url(../public/ad1.webp);
+    border-radius: 10px;
+  }
+  .rightport{
+    display: block;
+    width: 240px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+  }
+  .header{
+    font-weight: 700;
+    color: black;
+    
+  }
+  .desc{
+    font-size: 14px;
+    margin-top: 10px;
+    color: 
+    rgba(160, 163, 189, 1);
+  }
+  .viewit2{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-right: 49px;
+   
+  }
+  .view2{
+    width: 120px;
+    height: 35px;
+    background-color: #E3D5FF;
+    text-align: center;
+    border-radius: 7px;
+  }
+  .icon12{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:rgba(250, 250, 250, 1);
+    
+  }
+  .c4img{
+    width: 220px;
+    height: 100%;
+    background-size: contain;
+    background: url(../public/ad2.webp);
+    border-radius: 10px;
+  }
+  .c5img{
+    width: 220px;
+    height: 100%;
+    background-size: contain;
+    background: url(../public/ad3.webp);
+    border-radius: 10px;
+  }
+  
+}
