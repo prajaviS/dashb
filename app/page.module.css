@@ -1634,7 +1634,7 @@
     width: 130%;
     gap: 16px;
     margin-left: 10px;
-    overflow-x:hidden;
+    overflow-x:auto;
   }
   .card1{
     width: 250px;
