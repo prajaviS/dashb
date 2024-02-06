@@ -1557,6 +1557,7 @@
     background-color: #f8fafb;
     height: 835px;
     overflow-x: auto;
+    width: 180%;
 
   }
   .mainpage::-webkit-scrollbar {
@@ -1625,13 +1626,13 @@
   }
   .section1{
     display: block;
-    width: 100%;
+    width: 130%;
     height: 500px;
     justify-content: space-between;
   }
   .subsec1{
     display: flex;
-    width: 130%;
+    
     gap: 16px;
     margin-left: 10px;
     overflow-x:auto;
