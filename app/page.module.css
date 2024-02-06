@@ -250,7 +250,7 @@
   background-size: cover;
   height: 200px;
   margin: 10px;
-  background: url(../public/card1.png);
+  background: url(../public/card1.webp);
   border-radius: 5px;
 }
 .secondhalf{
@@ -414,21 +414,21 @@
   background-size: cover;
   height: 200px;
   margin: 10px;
-  background: url(../public/card2.png);
+  background: url(../public/card2.webp);
   border-radius: 5px;
 }
 .imagead3{
   background-size: cover;
   height: 200px;
   margin: 10px;
-  background: url(../public/card3.png);
+  background: url(../public/card3.webp);
   border-radius: 5px;
 }
 .imagead4{
   background-size: cover;
   height: 200px;
   margin: 10px;
-  background: url(../public/card2.png);
+  background: url(../public/card2.webp);
   border-radius: 5px;
 }
 .subsec2{
@@ -645,7 +645,7 @@
   width: 220px;
   height: 100%;
   background-size: contain;
-  background: url(../public/ad1.png);
+  background: url(../public/ad1.webp);
   border-radius: 10px;
 }
 .rightport{
@@ -692,14 +692,14 @@
   width: 220px;
   height: 100%;
   background-size: contain;
-  background: url(../public/ad2.png);
+  background: url(../public/ad2.webp);
   border-radius: 10px;
 }
 .c5img{
   width: 220px;
   height: 100%;
   background-size: contain;
-  background: url(../public/ad3.png);
+  background: url(../public/ad3.webp);
   border-radius: 10px;
 }
 @media(max-width:600px){
@@ -950,7 +950,7 @@
     background-size: cover;
     height: 200px;
     margin: 10px;
-    background: url(../public/card1.png);
+    background: url(../public/card1.webp);
     border-radius: 5px;
   }
   .secondhalf{
@@ -1114,14 +1114,14 @@
     background-size: cover;
     height: 200px;
     margin: 10px;
-    background: url(../public/card2.png);
+    background: url(../public/card2.webp);
     border-radius: 5px;
   }
   .imagead3{
     background-size: cover;
     height: 200px;
     margin: 10px;
-    background: url(../public/card3.png);
+    background: url(../public/card3.webp);
     border-radius: 5px;
   }
   .imagead4{
@@ -1345,7 +1345,7 @@
     width: 220px;
     height: 100%;
     background-size: contain;
-    background: url(../public/ad1.png);
+    background: url(../public/ad1.webp);
     border-radius: 10px;
   }
   .rightport{
@@ -1392,14 +1392,14 @@
     width: 220px;
     height: 100%;
     background-size: contain;
-    background: url(../public/ad2.png);
+    background: url(../public/ad2.webp);
     border-radius: 10px;
   }
   .c5img{
     width: 220px;
     height: 100%;
     background-size: contain;
-    background: url(../public/ad3.png);
+    background: url(../public/ad3.webp);
     border-radius: 10px;
   }
   
